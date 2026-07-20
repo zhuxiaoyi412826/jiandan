@@ -1,6 +1,7 @@
 D:\daima\ceshi\backend\src\main\java\com\example\mall\common\Result.java
 D:\daima\ceshi\backend\src\main\java\com\example\mall\entity\OrderItem.java
 D:\daima\ceshi\backend\src\main\java\com\example\mall\mapper\OrderMapper.java
+D:\daima\ceshi\backend\src\main\java\com\example\mall\config\Knife4jConfig.java
 D:\daima\ceshi\backend\src\main\java\com\example\mall\mapper\OrderItemMapper.java
 D:\daima\ceshi\backend\src\main\java\com\example\mall\service\impl\UserServiceImpl.java
 D:\daima\ceshi\backend\src\main\java\com\example\mall\service\impl\OrderServiceImpl.java

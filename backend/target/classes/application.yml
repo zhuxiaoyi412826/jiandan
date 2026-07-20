@@ -38,3 +38,39 @@ logging:
     console: UTF-8
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+# Knife4j 接口文档配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: default
+      paths-to-match: /**
+      packages-to-scan: com.example.mall.controller
+
+# Knife4j 增强配置
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+    enable-version: true
+    enable-reload-cache-parameter: true
+    enable-after-script: true
+    enable-request-cache: true
+    enable-host: false
+    enable-host-text: localhost:8080
+    enable-home-custom: false
+    enable-search: false
+    enable-footer: false
+    enable-footer-custom: true
+    footer-custom-content: Apache License 2.0 | Copyright  2026 Simple Mall
+    enable-dynamic-parameter: false
+    enable-debug: true
+    enable-open-api: false
+    enable-group: true
+    enable-cors: false
+    enable-document-manage: true
